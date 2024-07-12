@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CAB52E57-49D6-45BD-9B11-2BB6DB6DC10E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Student_project_information_system</RootNamespace>
+    <AssemblyName>Student_project_information_system</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AddCourse.aspx" />
+    <Content Include="Admin\AddProjectpage.aspx" />
+    <Content Include="Admin\AddStaffpage.aspx" />
+    <Content Include="Admin\AddStudentpage.aspx" />
+    <Content Include="Admin\ChangePassword.aspx" />
+    <Content Include="Admin\css\animate.css" />
+    <Content Include="Admin\css\color\blue.css" />
+    <Content Include="Admin\css\color\brown.css" />
+    <Content Include="Admin\css\color\dark-blue.css" />
+    <Content Include="Admin\css\color\dark-green.css" />
+    <Content Include="Admin\css\color\green.css" />
+    <Content Include="Admin\css\color\orange.css" />
+    <Content Include="Admin\css\color\rose.css" />
+    <Content Include="Admin\css\color\themecolor.css" />
+    <Content Include="Admin\css\color\violet.css" />
+    <Content Include="Admin\css\color\yellow.css" />
+    <Content Include="Admin\css\magnific-popup.css" />
+    <Content Include="Admin\css\owl.carousel.css" />
+    <Content Include="Admin\css\owl.theme.css" />
+    <Content Include="Admin\css\reset.css" />
+    <Content Include="Admin\css\responsive.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\DEMO\bg.png" />
+    <Content Include="Admin\DEMO\bootstrap.min.css" />
+    <Content Include="Admin\DEMO\icon.png" />
+    <Content Include="Admin\DEMO\index.html" />
+    <Content Include="Admin\DEMO\jquery.js" />
+    <Content Include="Admin\DEMO\l1-v1.jpg" />
+    <Content Include="Admin\DEMO\l1-v2.JPG" />
+    <Content Include="Admin\DEMO\loader.gif" />
+    <Content Include="Admin\DEMO\logo.PNG" />
+    <Content Include="Admin\images\bak1.jpg" />
+    <Content Include="Admin\images\bak2.jpg" />
+    <Content Include="Admin\images\bak3.jpg" />
+    <Content Include="Admin\images\bak4.jpg" />
+    <Content Include="Admin\images\icon.png" />
+    <Content Include="Admin\images\image1.jpg" />
+    <Content Include="Admin\images\image2.jpg" />
+    <Content Include="Admin\images\image3.jpg" />
+    <Content Include="Admin\images\image4.jpg" />
+    <Content Include="Admin\images\images.jpg" />
+    <Content Include="Admin\images\img-1.jpg" />
+    <Content Include="Admin\images\img-2.jpg" />
+    <Content Include="Admin\images\loading.gif" />
+    <Content Include="Admin\images\main.jpg" />
+    <Content Include="Admin\images\plus.png" />
+    <Content Include="Admin\images\showcase.png" />
+    <Content Include="Admin\images\team-1.jpg" />
+    <Content Include="Admin\images\team-2.jpg" />
+    <Content Include="Admin\images\team-3.jpg" />
+    <Content Include="Admin\images\team-4.jpg" />
+    <Content Include="Admin\images\team.jpg" />
+    <Content Include="Admin\images\work-1.jpg" />
+    <Content Include="Admin\images\work-2.jpg" />
+    <Content Include="Admin\images\work-3.jpg" />
+    <Content Include="Admin\js\common.js" />
+    <Content Include="Admin\js\fappear.js" />
+    <Content Include="Admin\js\jquery.countTo.js" />
+    <Content Include="Admin\js\jquery.easing.1.3.js" />
+    <Content Include="Admin\js\jquery.hoverdir.js" />
+    <Content Include="Admin\js\jquery.magnific-popup.min.js" />
+    <Content Include="Admin\js\owl.carousel.js" />
+    <Content Include="Admin\js\plugins.js" />
+    <Content Include="Admin\js\SmoothScroll.js" />
+    <Content Include="Admin\js\typed.js" />
+    <Content Include="Admin\js\yellow.css" />
+    <Content Include="Admin\library\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Admin\library\bootstrap\css\bootstrap.css" />
+    <Content Include="Admin\library\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\library\bootstrap\js\bootstrap.js" />
+    <Content Include="Admin\library\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.svg" />
+    <Content Include="Admin\library\jquery-1.11.3.min.js" />
+    <Content Include="Admin\library\jquery.prettyPhoto.js" />
+    <Content Include="Admin\library\modernizr.custom.97074.js" />
+    <Content Include="Admin\library\owl.carousel.min.js" />
+    <Content Include="Admin\library\vegas\overlays\01.png" />
+    <Content Include="Admin\library\vegas\overlays\02.png" />
+    <Content Include="Admin\library\vegas\overlays\03.png" />
+    <Content Include="Admin\library\vegas\overlays\04.png" />
+    <Content Include="Admin\library\vegas\overlays\05.png" />
+    <Content Include="Admin\library\vegas\overlays\06.png" />
+    <Content Include="Admin\library\vegas\overlays\07.png" />
+    <Content Include="Admin\library\vegas\overlays\08.png" />
+    <Content Include="Admin\library\vegas\overlays\09.png" />
+    <Content Include="Admin\library\vegas\vegas.css" />
+    <Content Include="Admin\library\vegas\vegas.js" />
+    <Content Include="Admin\library\vegas\vegas.min.css" />
+    <Content Include="Admin\library\vegas\vegas.min.js" />
+    <Content Include="Admin\Licensing\GPL.txt" />
+    <Content Include="Admin\Licensing\README_License.txt" />
+    <Content Include="Admin\nbproject\private\private.xml" />
+    <Content Include="Admin\nbproject\project.xml" />
+    <Content Include="delete.jpg" />
+    <Content Include="edit1.jpg" />
+    <Content Include="Staff\Assing_Project_Task.aspx" />
+    <Content Include="Staff\css\animate.css" />
+    <Content Include="Staff\css\color\blue.css" />
+    <Content Include="Staff\css\color\brown.css" />
+    <Content Include="Staff\css\color\dark-blue.css" />
+    <Content Include="Staff\css\color\dark-green.css" />
+    <Content Include="Staff\css\color\green.css" />
+    <Content Include="Staff\css\color\orange.css" />
+    <Content Include="Staff\css\color\rose.css" />
+    <Content Include="Staff\css\color\themecolor.css" />
+    <Content Include="Staff\css\color\violet.css" />
+    <Content Include="Staff\css\color\yellow.css" />
+    <Content Include="Staff\css\magnific-popup.css" />
+    <Content Include="Staff\css\owl.carousel.css" />
+    <Content Include="Staff\css\owl.theme.css" />
+    <Content Include="Staff\css\reset.css" />
+    <Content Include="Staff\css\responsive.css" />
+    <Content Include="Staff\css\style.css" />
+    <Content Include="Staff\DEMO\bg.png" />
+    <Content Include="Staff\DEMO\bootstrap.min.css" />
+    <Content Include="Staff\DEMO\icon.png" />
+    <Content Include="Staff\DEMO\index.html" />
+    <Content Include="Staff\DEMO\jquery.js" />
+    <Content Include="Staff\DEMO\l1-v1.jpg" />
+    <Content Include="Staff\DEMO\l1-v2.JPG" />
+    <Content Include="Staff\DEMO\loader.gif" />
+    <Content Include="Staff\DEMO\logo.PNG" />
+    <Content Include="Staff\images\bak1.jpg" />
+    <Content Include="Staff\images\bak2.jpg" />
+    <Content Include="Staff\images\bak3.jpg" />
+    <Content Include="Staff\images\bak4.jpg" />
+    <Content Include="Staff\images\icon.png" />
+    <Content Include="Staff\images\image1.jpg" />
+    <Content Include="Staff\images\image2.jpg" />
+    <Content Include="Staff\images\image3.jpg" />
+    <Content Include="Staff\images\image4.jpg" />
+    <Content Include="Staff\images\images.jpg" />
+    <Content Include="Staff\images\img-1.jpg" />
+    <Content Include="Staff\images\img-2.jpg" />
+    <Content Include="Staff\images\loading.gif" />
+    <Content Include="Staff\images\main.jpg" />
+    <Content Include="Staff\images\plus.png" />
+    <Content Include="Staff\images\showcase.png" />
+    <Content Include="Staff\images\team-1.jpg" />
+    <Content Include="Staff\images\team-2.jpg" />
+    <Content Include="Staff\images\team-3.jpg" />
+    <Content Include="Staff\images\team-4.jpg" />
+    <Content Include="Staff\images\team.jpg" />
+    <Content Include="Staff\images\work-1.jpg" />
+    <Content Include="Staff\images\work-2.jpg" />
+    <Content Include="Staff\images\work-3.jpg" />
+    <Content Include="Staff\js\common.js" />
+    <Content Include="Staff\js\fappear.js" />
+    <Content Include="Staff\js\jquery.countTo.js" />
+    <Content Include="Staff\js\jquery.easing.1.3.js" />
+    <Content Include="Staff\js\jquery.hoverdir.js" />
+    <Content Include="Staff\js\jquery.magnific-popup.min.js" />
+    <Content Include="Staff\js\owl.carousel.js" />
+    <Content Include="Staff\js\plugins.js" />
+    <Content Include="Staff\js\SmoothScroll.js" />
+    <Content Include="Staff\js\typed.js" />
+    <Content Include="Staff\js\yellow.css" />
+    <Content Include="Staff\library\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Staff\library\bootstrap\css\bootstrap.css" />
+    <Content Include="Staff\library\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Staff\library\bootstrap\js\bootstrap.js" />
+    <Content Include="Staff\library\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.svg" />
+    <Content Include="Staff\library\jquery-1.11.3.min.js" />
+    <Content Include="Staff\library\jquery.prettyPhoto.js" />
+    <Content Include="Staff\library\modernizr.custom.97074.js" />
+    <Content Include="Staff\library\owl.carousel.min.js" />
+    <Content Include="Staff\library\vegas\overlays\01.png" />
+    <Content Include="Staff\library\vegas\overlays\02.png" />
+    <Content Include="Staff\library\vegas\overlays\03.png" />
+    <Content Include="Staff\library\vegas\overlays\04.png" />
+    <Content Include="Staff\library\vegas\overlays\05.png" />
+    <Content Include="Staff\library\vegas\overlays\06.png" />
+    <Content Include="Staff\library\vegas\overlays\07.png" />
+    <Content Include="Staff\library\vegas\overlays\08.png" />
+    <Content Include="Staff\library\vegas\overlays\09.png" />
+    <Content Include="Staff\library\vegas\vegas.css" />
+    <Content Include="Staff\library\vegas\vegas.js" />
+    <Content Include="Staff\library\vegas\vegas.min.css" />
+    <Content Include="Staff\library\vegas\vegas.min.js" />
+    <Content Include="Staff\Licensing\GPL.txt" />
+    <Content Include="Staff\Licensing\README_License.txt" />
+    <Content Include="Staff\nbproject\private\private.xml" />
+    <Content Include="Staff\nbproject\project.xml" />
+    <Content Include="Staff\Staffpage.aspx" />
+    <Content Include="Staff\StaffQuery.aspx" />
+    <Content Include="Staff\Staff_Changepassword.aspx" />
+    <Content Include="Staff\View_Task_Updation.aspx" />
+    <Content Include="Students\css\animate.css" />
+    <Content Include="Students\css\color\blue.css" />
+    <Content Include="Students\css\color\brown.css" />
+    <Content Include="Students\css\color\dark-blue.css" />
+    <Content Include="Students\css\color\dark-green.css" />
+    <Content Include="Students\css\color\green.css" />
+    <Content Include="Students\css\color\orange.css" />
+    <Content Include="Students\css\color\rose.css" />
+    <Content Include="Students\css\color\themecolor.css" />
+    <Content Include="Students\css\color\violet.css" />
+    <Content Include="Students\css\color\yellow.css" />
+    <Content Include="Students\css\magnific-popup.css" />
+    <Content Include="Students\css\owl.carousel.css" />
+    <Content Include="Students\css\owl.theme.css" />
+    <Content Include="Students\css\reset.css" />
+    <Content Include="Students\css\responsive.css" />
+    <Content Include="Students\css\style.css" />
+    <Content Include="Students\DEMO\bg.png" />
+    <Content Include="Students\DEMO\bootstrap.min.css" />
+    <Content Include="Students\DEMO\icon.png" />
+    <Content Include="Students\DEMO\index.html" />
+    <Content Include="Students\DEMO\jquery.js" />
+    <Content Include="Students\DEMO\l1-v1.jpg" />
+    <Content Include="Students\DEMO\l1-v2.JPG" />
+    <Content Include="Students\DEMO\loader.gif" />
+    <Content Include="Students\DEMO\logo.PNG" />
+    <Content Include="Students\images\bak1.jpg" />
+    <Content Include="Students\images\bak2.jpg" />
+    <Content Include="Students\images\bak3.jpg" />
+    <Content Include="Students\images\bak4.jpg" />
+    <Content Include="Students\images\icon.png" />
+    <Content Include="Students\images\image1.jpg" />
+    <Content Include="Students\images\image2.jpg" />
+    <Content Include="Students\images\image3.jpg" />
+    <Content Include="Students\images\image4.jpg" />
+    <Content Include="Students\images\images.jpg" />
+    <Content Include="Students\images\img-1.jpg" />
+    <Content Include="Students\images\img-2.jpg" />
+    <Content Include="Students\images\loading.gif" />
+    <Content Include="Students\images\main.jpg" />
+    <Content Include="Students\images\plus.png" />
+    <Content Include="Students\images\showcase.png" />
+    <Content Include="Students\images\team-1.jpg" />
+    <Content Include="Students\images\team-2.jpg" />
+    <Content Include="Students\images\team-3.jpg" />
+    <Content Include="Students\images\team-4.jpg" />
+    <Content Include="Students\images\team.jpg" />
+    <Content Include="Students\images\work-1.jpg" />
+    <Content Include="Students\images\work-2.jpg" />
+    <Content Include="Students\images\work-3.jpg" />
+    <Content Include="Students\js\common.js" />
+    <Content Include="Students\js\fappear.js" />
+    <Content Include="Students\js\jquery.countTo.js" />
+    <Content Include="Students\js\jquery.easing.1.3.js" />
+    <Content Include="Students\js\jquery.hoverdir.js" />
+    <Content Include="Students\js\jquery.magnific-popup.min.js" />
+    <Content Include="Students\js\owl.carousel.js" />
+    <Content Include="Students\js\plugins.js" />
+    <Content Include="Students\js\SmoothScroll.js" />
+    <Content Include="Students\js\typed.js" />
+    <Content Include="Students\js\yellow.css" />
+    <Content Include="Students\library\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Students\library\bootstrap\css\bootstrap.css" />
+    <Content Include="Students\library\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Students\library\bootstrap\js\bootstrap.js" />
+    <Content Include="Students\library\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.svg" />
+    <Content Include="Students\library\jquery-1.11.3.min.js" />
+    <Content Include="Students\library\jquery.prettyPhoto.js" />
+    <Content Include="Students\library\modernizr.custom.97074.js" />
+    <Content Include="Students\library\owl.carousel.min.js" />
+    <Content Include="Students\library\vegas\overlays\01.png" />
+    <Content Include="Students\library\vegas\overlays\02.png" />
+    <Content Include="Students\library\vegas\overlays\03.png" />
+    <Content Include="Students\library\vegas\overlays\04.png" />
+    <Content Include="Students\library\vegas\overlays\05.png" />
+    <Content Include="Students\library\vegas\overlays\06.png" />
+    <Content Include="Students\library\vegas\overlays\07.png" />
+    <Content Include="Students\library\vegas\overlays\08.png" />
+    <Content Include="Students\library\vegas\overlays\09.png" />
+    <Content Include="Students\library\vegas\vegas.css" />
+    <Content Include="Students\library\vegas\vegas.js" />
+    <Content Include="Students\library\vegas\vegas.min.css" />
+    <Content Include="Students\library\vegas\vegas.min.js" />
+    <Content Include="Students\Licensing\GPL.txt" />
+    <Content Include="Students\Licensing\README_License.txt" />
+    <Content Include="Students\nbproject\private\private.xml" />
+    <Content Include="Students\nbproject\project.xml" />
+    <Content Include="Students\Studentpage.aspx" />
+    <Content Include="Students\StudentQuery.aspx" />
+    <Content Include="Students\Update_Project_Task.aspx" />
+    <Content Include="Students\View_Project_Task.aspx" />
+    <Content Include="Visitor\css\animate.css" />
+    <Content Include="Visitor\css\color\blue.css" />
+    <Content Include="Visitor\css\color\brown.css" />
+    <Content Include="Visitor\css\color\dark-blue.css" />
+    <Content Include="Visitor\css\color\dark-green.css" />
+    <Content Include="Visitor\css\color\green.css" />
+    <Content Include="Visitor\css\color\orange.css" />
+    <Content Include="Visitor\css\color\rose.css" />
+    <Content Include="Visitor\css\color\themecolor.css" />
+    <Content Include="Visitor\css\color\violet.css" />
+    <Content Include="Visitor\css\color\yellow.css" />
+    <Content Include="Visitor\css\magnific-popup.css" />
+    <Content Include="Visitor\css\owl.carousel.css" />
+    <Content Include="Visitor\css\owl.theme.css" />
+    <Content Include="Visitor\css\reset.css" />
+    <Content Include="Visitor\css\responsive.css" />
+    <Content Include="Visitor\css\style.css" />
+    <Content Include="Visitor\DEMO\bg.png" />
+    <Content Include="Visitor\DEMO\bootstrap.min.css" />
+    <Content Include="Visitor\DEMO\icon.png" />
+    <Content Include="Visitor\DEMO\index.html" />
+    <Content Include="Visitor\DEMO\jquery.js" />
+    <Content Include="Visitor\DEMO\l1-v1.jpg" />
+    <Content Include="Visitor\DEMO\l1-v2.JPG" />
+    <Content Include="Visitor\DEMO\loader.gif" />
+    <Content Include="Visitor\DEMO\logo.PNG" />
+    <Content Include="Visitor\images\bak1.jpg" />
+    <Content Include="Visitor\images\bak2.jpg" />
+    <Content Include="Visitor\images\bak3.jpg" />
+    <Content Include="Visitor\images\bak4.jpg" />
+    <Content Include="Visitor\images\icon.png" />
+    <Content Include="Visitor\images\image1.jpg" />
+    <Content Include="Visitor\images\image2.jpg" />
+    <Content Include="Visitor\images\image3.jpg" />
+    <Content Include="Visitor\images\image4.jpg" />
+    <Content Include="Visitor\images\images.jpg" />
+    <Content Include="Visitor\images\img-1.jpg" />
+    <Content Include="Visitor\images\img-2.jpg" />
+    <Content Include="Visitor\images\loading.gif" />
+    <Content Include="Visitor\images\main.jpg" />
+    <Content Include="Visitor\images\plus.png" />
+    <Content Include="Visitor\images\showcase.png" />
+    <Content Include="Visitor\images\team-1.jpg" />
+    <Content Include="Visitor\images\team-2.jpg" />
+    <Content Include="Visitor\images\team-3.jpg" />
+    <Content Include="Visitor\images\team-4.jpg" />
+    <Content Include="Visitor\images\team.jpg" />
+    <Content Include="Visitor\images\work-1.jpg" />
+    <Content Include="Visitor\images\work-2.jpg" />
+    <Content Include="Visitor\images\work-3.jpg" />
+    <Content Include="Visitor\js\common.js" />
+    <Content Include="Visitor\js\fappear.js" />
+    <Content Include="Visitor\js\jquery.countTo.js" />
+    <Content Include="Visitor\js\jquery.easing.1.3.js" />
+    <Content Include="Visitor\js\jquery.hoverdir.js" />
+    <Content Include="Visitor\js\jquery.magnific-popup.min.js" />
+    <Content Include="Visitor\js\owl.carousel.js" />
+    <Content Include="Visitor\js\plugins.js" />
+    <Content Include="Visitor\js\SmoothScroll.js" />
+    <Content Include="Visitor\js\typed.js" />
+    <Content Include="Visitor\js\yellow.css" />
+    <Content Include="Visitor\library\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Visitor\library\bootstrap\css\bootstrap.css" />
+    <Content Include="Visitor\library\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Visitor\library\bootstrap\js\bootstrap.js" />
+    <Content Include="Visitor\library\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="Visitor\library\jquery-1.11.3.min.js" />
+    <Content Include="Visitor\library\jquery.prettyPhoto.js" />
+    <Content Include="Visitor\library\modernizr.custom.97074.js" />
+    <Content Include="Visitor\library\owl.carousel.min.js" />
+    <Content Include="Visitor\library\vegas\overlays\01.png" />
+    <Content Include="Visitor\library\vegas\overlays\02.png" />
+    <Content Include="Visitor\library\vegas\overlays\03.png" />
+    <Content Include="Visitor\library\vegas\overlays\04.png" />
+    <Content Include="Visitor\library\vegas\overlays\05.png" />
+    <Content Include="Visitor\library\vegas\overlays\06.png" />
+    <Content Include="Visitor\library\vegas\overlays\07.png" />
+    <Content Include="Visitor\library\vegas\overlays\08.png" />
+    <Content Include="Visitor\library\vegas\overlays\09.png" />
+    <Content Include="Visitor\library\vegas\vegas.css" />
+    <Content Include="Visitor\library\vegas\vegas.js" />
+    <Content Include="Visitor\library\vegas\vegas.min.css" />
+    <Content Include="Visitor\library\vegas\vegas.min.js" />
+    <Content Include="Visitor\Licensing\GPL.txt" />
+    <Content Include="Visitor\Licensing\README_License.txt" />
+    <Content Include="Visitor\Visitorpage.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AddCourse.aspx.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddCourse.aspx.designer.cs">
+      <DependentUpon>AddCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddProjectpage.aspx.cs">
+      <DependentUpon>AddProjectpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddProjectpage.aspx.designer.cs">
+      <DependentUpon>AddProjectpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddStaffpage.aspx.cs">
+      <DependentUpon>AddStaffpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddStaffpage.aspx.designer.cs">
+      <DependentUpon>AddStaffpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddStudentpage.aspx.cs">
+      <DependentUpon>AddStudentpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddStudentpage.aspx.designer.cs">
+      <DependentUpon>AddStudentpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL.cs" />
+    <Compile Include="DLL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DLL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Staff\Assing_Project_Task.aspx.cs">
+      <DependentUpon>Assing_Project_Task.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\Assing_Project_Task.aspx.designer.cs">
+      <DependentUpon>Assing_Project_Task.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Staff.Master.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\Staff.Master.designer.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Staffpage.aspx.cs">
+      <DependentUpon>Staffpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\Staffpage.aspx.designer.cs">
+      <DependentUpon>Staffpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffQuery.aspx.cs">
+      <DependentUpon>StaffQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffQuery.aspx.designer.cs">
+      <DependentUpon>StaffQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Staff_Changepassword.aspx.cs">
+      <DependentUpon>Staff_Changepassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\Staff_Changepassword.aspx.designer.cs">
+      <DependentUpon>Staff_Changepassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\View_Task_Updation.aspx.cs">
+      <DependentUpon>View_Task_Updation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\View_Task_Updation.aspx.designer.cs">
+      <DependentUpon>View_Task_Updation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Students\Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Students\Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Students\Studentpage.aspx.cs">
+      <DependentUpon>Studentpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Students\Studentpage.aspx.designer.cs">
+      <DependentUpon>Studentpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Students\StudentQuery.aspx.cs">
+      <DependentUpon>StudentQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Students\StudentQuery.aspx.designer.cs">
+      <DependentUpon>StudentQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Students\Update_Project_Task.aspx.cs">
+      <DependentUpon>Update_Project_Task.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Students\Update_Project_Task.aspx.designer.cs">
+      <DependentUpon>Update_Project_Task.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Students\View_Project_Task.aspx.cs">
+      <DependentUpon>View_Project_Task.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Students\View_Project_Task.aspx.designer.cs">
+      <DependentUpon>View_Project_Task.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Visitor.Master.cs">
+      <DependentUpon>Visitor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Visitor.Master.designer.cs">
+      <DependentUpon>Visitor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Visitor\Visitorpage.aspx.cs">
+      <DependentUpon>Visitorpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Visitor\Visitorpage.aspx.designer.cs">
+      <DependentUpon>Visitorpage.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+    <None Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.eot" />
+    <None Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.ttf" />
+    <None Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff" />
+    <None Include="Admin\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff2" />
+    <None Include="Admin\library\vegas\vegas.min.js.map" />
+    <None Include="Admin\nbproject\private\private.properties" />
+    <None Include="Admin\nbproject\project.properties" />
+    <None Include="Admin\php\notify.php" />
+    <None Include="Admin\php\sendmail.php" />
+    <None Include="DLL.xsc">
+      <DependentUpon>DLL.xsd</DependentUpon>
+    </None>
+    <None Include="DLL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DLL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DLL.xss">
+      <DependentUpon>DLL.xsd</DependentUpon>
+    </None>
+    <Content Include="Staff\Staff.Master" />
+    <None Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.eot" />
+    <None Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.ttf" />
+    <None Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff" />
+    <None Include="Staff\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff2" />
+    <None Include="Staff\library\vegas\vegas.min.js.map" />
+    <None Include="Staff\nbproject\private\private.properties" />
+    <None Include="Staff\nbproject\project.properties" />
+    <None Include="Staff\php\notify.php" />
+    <None Include="Staff\php\sendmail.php" />
+    <Content Include="Students\Student.Master" />
+    <None Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.eot" />
+    <None Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.ttf" />
+    <None Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff" />
+    <None Include="Students\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff2" />
+    <None Include="Students\library\vegas\vegas.min.js.map" />
+    <None Include="Students\nbproject\private\private.properties" />
+    <None Include="Students\nbproject\project.properties" />
+    <None Include="Students\php\notify.php" />
+    <None Include="Students\php\sendmail.php" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.eot" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.svg" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.ttf" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff" />
+    <None Include="Visitor\library\font-awesome-4.3.0\fonts\fontawesome-webfonte0a5.woff2" />
+    <None Include="Visitor\library\vegas\vegas.min.js.map" />
+    <None Include="Visitor\php\notify.php" />
+    <None Include="Visitor\php\sendmail.php" />
+    <Content Include="Visitor\Visitor.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Doc\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1235</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

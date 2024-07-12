@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2010\Projects\StudentWebfom\StudentWebfom\bin\StudentWebfom.dll
+c:\users\user\documents\visual studio 2010\Projects\StudentWebfom\StudentWebfom\bin\StudentWebfom.pdb
+c:\users\user\documents\visual studio 2010\Projects\StudentWebfom\StudentWebfom\obj\Debug\StudentWebfom.dll
+c:\users\user\documents\visual studio 2010\Projects\StudentWebfom\StudentWebfom\obj\Debug\StudentWebfom.pdb
+C:\Users\Webnet Solutions\Desktop\Arpitha And Kavana\StudentWebfom\bin\StudentWebfom.dll
+C:\Users\Webnet Solutions\Desktop\Arpitha And Kavana\StudentWebfom\bin\StudentWebfom.pdb
+C:\Users\Webnet Solutions\Desktop\Arpitha And Kavana\StudentWebfom\obj\Debug\StudentWebfom.csprojResolveAssemblyReference.cache
+C:\Users\Webnet Solutions\Desktop\Arpitha And Kavana\StudentWebfom\obj\Debug\StudentWebfom.dll
+C:\Users\Webnet Solutions\Desktop\Arpitha And Kavana\StudentWebfom\obj\Debug\StudentWebfom.pdb
